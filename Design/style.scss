@@ -1,0 +1,39 @@
+h1 {
+    color: red;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header,
+nav,
+main,
+footer {
+    padding: 0.5em;
+}
+
+header {
+    background-color: #F44336;
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #AC0002;
+    color: white;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #D3D3D3;
+}
+
+a:main {
+    color: #F44336;
+}
+
+img {
+    width: 200px;
+}
