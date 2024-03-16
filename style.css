@@ -61,3 +61,67 @@ table {
 .af4 {
     background-color: #CCEEFF;
 }
+
+@keyframes change-background {
+    from {
+        background-color: green;
+    }
+
+    to {
+        background-color: blue;
+    }
+}
+
+@keyframes rechts {
+    from {
+        margin-left: 0px;
+    }
+
+    to {
+        margin-left: 500px;
+    }
+}
+
+.animiert {
+    animation-name: change-background;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+}
+
+.car1 {
+    animation-name: rechts;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+.car2 {
+    animation-name: rechts;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+.car3 {
+    animation-name: rechts;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+.car4 {
+    animation-name: rechts;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
