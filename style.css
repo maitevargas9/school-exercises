@@ -89,6 +89,16 @@ table {
     }
 }
 
+@keyframes right-to-left {
+    from {
+        margin-left: 830px;
+    }
+
+    to {
+        margin-left: -225px;
+    }
+}
+
 .animiert {
     animation-name: change-background;
     animation-duration: 10s;
@@ -137,7 +147,7 @@ table {
     position: relative;
     width: 830px;
     height: 538px;
-    background-image: url("background.png");
+    background-image: url("Images/background.png");
     overflow: hidden;
     margin: 0 auto; 
 }
@@ -151,4 +161,39 @@ table {
     animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear; 
+}
+
+.auto2 {
+    position: absolute;
+    width: 225px;
+    margin-top: 355px;
+    margin-left: -225px;
+    animation-name: left-to-right;
+    animation-duration: 10s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.auto3 {
+    position: absolute;
+    width: 225px;
+    margin-top: 275px;
+    margin-left: 830px;
+    animation-name: right-to-left;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.auto4 {
+    position: absolute;
+    width: 225px;
+    margin-top: 275px;
+    margin-left: 830px;
+    animation-name: right-to-left;
+    animation-duration: 10s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
