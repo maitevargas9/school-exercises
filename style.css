@@ -35,6 +35,29 @@ a:main {
 }
 
 img {
-    height: 50%;
-    width: 50%;
+    width: 200px;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.af1 {
+    background-color: #FFF7D8;
+}
+
+.af2 {
+    background-color: #D6E4FF;
+}
+
+.af3 {
+    background-color: #EEFDD7;
+}
+
+.af4 {
+    background-color: #CCEEFF;
 }
